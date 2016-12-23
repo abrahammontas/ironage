@@ -25,7 +25,7 @@ elixir(function(mix) {
             'plugins/colorbox.css',
             'plugins/flexslider.css',
             'plugins/jquery.fs.tipper.css',
-            'plugins/jquery.fullPag.css',
+            'plugins/jquery.fullPage.css',
             'plugins/mediaelementplayer.css/',
             'plugins/owl.carousel.css',
             'plugins/smoothproducts.css',
