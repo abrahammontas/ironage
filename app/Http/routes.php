@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['middleware' => 'https'], function() {
+//Route::group(['middleware' => 'https'], function() {
 
     Route::auth();
 
@@ -181,9 +181,9 @@ Route::group(['middleware' => 'https'], function() {
         });
 
 
-
     });
-});
+
+//});
 
 
 
