@@ -35,18 +35,15 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="{{ url('products') }}">Products</a>
+                    <a class="menu-has-sub">Products <i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-dropdown dropdown">
+                        <li><a href="{{ url('products/all') }}">All</a></li>
+                        <li><a href="{{ url('products/desks') }}">Desks</a></li>
+                        <li><a href="{{ url('products/tables') }}">Tables</a></li>
+                        <li><a href="{{ url('products/storage') }}">Storage</a></li>
+                        <li><a href="{{ url('products/workstations') }}">Workstations</a></li>
+                    </ul>
                 </li>
-                {{--<li>--}}
-                    {{--<a class="menu-has-sub">Products <i class="fa fa-angle-down"></i></a>--}}
-                    {{--<ul class="sub-dropdown dropdown">--}}
-                        {{--<li><a href="{{ url('products/all') }}">All</a></li>--}}
-                        {{--<li><a href="{{ url('products/desks') }}">Desks</a></li>--}}
-                        {{--<li><a href="{{ url('products/tables') }}">Tables</a></li>--}}
-                        {{--<li><a href="{{ url('products/storage') }}">Storage</a></li>--}}
-                        {{--<li><a href="{{ url('products/workstations') }}">Workstations</a></li>--}}
-                    {{--</ul>--}}
-                {{--</li>--}}
                 <li>
                     <a href="{{ url('commercial') }}">Commercial </a>
                 </li>

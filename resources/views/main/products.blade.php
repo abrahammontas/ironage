@@ -22,9 +22,9 @@
                 <ul class="container-filter categories-filter">
                     <li><a class="categories {{ ($type == 'all' || $type == '') ? 'active' : '' }}" data-filter="*">All</a></li>
                     <li><a class="categories {{ ($type == 'desks') ? 'active' : '' }}" data-filter=".desks">Desks</a></li>
-                    <li><a class="categories {{ ($type == 'tables') ? 'active' : '' }}" data-filter=".tables">Tables</a></li>
-                    <li><a class="categories {{ ($type == 'storage') ? 'active' : '' }}" data-filter=".storage">Storage</a></li>
-                    <li><a class="categories {{ ($type == 'workstations') ? 'active' : '' }}" data-filter=".commercial">Workstations</a></li>
+                    <li><a class="categories tables {{ ($type == 'tables') ? 'active' : '' }}" data-filter=".tables">Tables</a></li>
+                    <li><a class="categories storage {{ ($type == 'storage') ? 'active' : '' }}" data-filter=".storage">Storage</a></li>
+                    <li><a class="categories workstations {{ ($type == 'workstations') ? 'active' : '' }}" data-filter=".commercial">Workstations</a></li>
                 </ul>
             </div>
             <!-- End work Filter -->
@@ -366,26 +366,13 @@
 
 @section('scripts')
 
-    {{--<script>--}}
+    <script>
 
-        {{--setTimeout(function() {--}}
+        window.onload = function() {
+            $('.active').click();
+        }
 
-
-            {{--$("ul.galleria li:first-child img").trigger('click');--}}
-
-
-        {{--}, 10);--}}
-
-        {{--$(document).ready(function() {--}}
-
-            {{--$('.container-filter').trigger('click', '.categories', function() {--}}
-                {{--var filterValue = '.' + '{{$type}}';--}}
-                {{--$container.isotope({ filter: filterValue });--}}
-            {{--});--}}
-
-        {{--});--}}
-
-    {{--</script>--}}
+    </script>
 
 @endsection
 

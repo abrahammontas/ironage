@@ -120,7 +120,7 @@
                     // array('bastille-workstation', 'Bastille_1.jpg', 'Bastille Workstation'),
                         array('carruca-workbench', 'Carruca-WB.jpg', 'Carruca Workbench'),
                         array('carruca-workstation', 'Carruca-6P-WorkStation.jpg', 'Carruca Workstation'),
-                        array('harrod-carruca-workstation', 'Carruca-Dogbone.jpg', 'Dogbone Workstation')
+                        array('harrod-carruca-workstation', 'Carruca-Dogbone.jpg', 'Harrod Carruca Workstation')
                 );
                 $rand_keys = array_rand($products, 3);
 

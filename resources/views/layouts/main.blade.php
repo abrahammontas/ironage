@@ -46,7 +46,7 @@
         </a>
 
         <!-- JS -->
-        <script src="{{ asset('js/vendors.js') }}"></script>
+        <script src="{{ asset('js/vendors.js') }}" type="text/javascript"></script>
 
         @yield('scripts')
 

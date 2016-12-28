@@ -26,7 +26,7 @@ elixir(function(mix) {
             'plugins/flexslider.css',
             'plugins/jquery.fs.tipper.css',
             'plugins/jquery.fullPage.css',
-            'plugins/mediaelementplayer.css/',
+            'plugins/mediaelementplayer.css',
             'plugins/owl.carousel.css',
             'plugins/smoothproducts.css',
             'plugins/YTPlayer.css'

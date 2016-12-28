@@ -1,53 +1,3 @@
-@import url("plugin/flexslider.css");
-@import url("plugin/owl.carousel.css");
-@import url("plugin/mediaelementplayer.css");
-@import url("plugin/colorbox.css");
-@import url("plugin/jquery.fs.tipper.css");
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
-
-/*
-* BASIC STYLE
-  - General Style
-  - Headings Style
-  - Button Style
-  - Form Style
-  - Spacer Style
-
-* HEADER
-  - Header Style
-  - Logo Style
-  - Navigation Menu Style
-  - Right Side Menu Button (Search, Cart, Bar, etc)
-
-* INTRO
-  - intro
-
-* FOOTER
-
-* ELEMENTS
-  - Team Box
-  - Skills Bar
-  - Accordion Tab
-  - Counter
-  - Service Box
-  - Pricing
-  - Testimonials
-  - Client Logo
-  - Icon
-  - Table
-
-* GLOBAL STYLES
-  - Push Menu Style ( Right Sidebar Menu )
-  - Search Overlay Menu
-  - Contents (Body, Container, Section, etc)
-  - Contants (Portfolio, Blog, Shop etc)
-  - Parallax
-  - Slider
-  - Preloader
-  - Additional
-*/
-
-
 /*-------------------------------------------------------------------------------------------*/
 /* BASIC STYLE    ||---------------------------- */
 /*-------------------------------------------------------------------------------------------*/
@@ -64,6 +14,10 @@
 
 
 /*  General Style   ||-----------*/
+
+html {
+    overflow-y: scroll;
+}
 
 body, html {
     height: 100%;
@@ -4405,9 +4359,13 @@ h3::after {
     background-color:#323232;
 }
 .iao-video:hover {
-    color:#323232;
+    color:#323232 !important;
     background-color:white;
 }
+.iao-video:visited {
+    color: white;
+}
+
 .mb-110 {
     margin-bottom:110px;
 }

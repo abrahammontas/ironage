@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row mb-60 mb-xs-30">
                 <div class="col-md-6">
-                    <h4>Dogbone Workstation</h4>
+                    <h4>Harrod Carruca Workstation</h4>
                 </div>
                 <div class="col-md-6">
                     <p class="lead">
@@ -51,7 +51,7 @@
                 <div class="col-md-4 mb-30">
                     <div class="project-detail-block">
                         <p>
-                            <strong class="dark-color">Product :</strong>Dogbone Workstation
+                            <strong class="dark-color">Product :</strong>Harrod Carruca Workstation
                         </p>
                         <p>
                             <strong class="dark-color">Drawers :</strong>N/A

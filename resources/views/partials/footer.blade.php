@@ -4,30 +4,10 @@
             <!-- Logo -->
             <div class="col-md-3 col-sm-3 col-xs-12 mb-xs-30">
                 <a class="footer-logo" href="{{ url('/') }}">
-                    <img src="{{ asset('img/IAO/logo-dark.png') }}" /></a>
+                    <img src="{{ asset('img/IAO/logo-dark.png') }}" />
+                </a>
             </div>
             <!-- Logo -->
-
-            <!-- Newsletter -->
-            <!--                     <div class="col-md-4 col-sm-5 col-xs-12 mb-xs-30">
-                                    <div class="newsletter">
-                                        <form>
-                                            <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
-                                            <button class="newsletter-btn btn btn-xs btn-white" type="submit" value=""><i class="fa fa-angle-right mr-0"></i></button>
-                                        </form>
-                                    </div>
-                                </div> -->
-            <!-- End Newsletter -->
-
-            <!-- Social -->
-            <!--                     <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
-                                    <ul class="social">
-                                        <li><a href="https://instagram.com/ironageoffice" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                        <li><a href="https://www.facebook.com/ironageoffice" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://www.linkedin.com/in/seandineen90" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div> -->
-            <!-- End Social -->
         </div>
         <!--Footer Info -->
         <div class="row footer-info mb-60">

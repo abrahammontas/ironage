@@ -19,7 +19,7 @@
     <section class="ptb ptb-sm-80">
         <div class="container">
             <div class="row">
-            <!-- Post Bar -->
+                <!-- Post Bar -->
                 <div class="col-lg-9 col-md-9 blog-post-hr">
 
                     <div class="blog-post mb-30">
@@ -52,7 +52,7 @@
                     <div class="sidebar-widget">
                         <h5>Recent Posts</h5>
                         <hr>
-                        <ul class="widget-post">
+                        <ul class="widget-post-media">
                             @foreach($posts as $recent_post)
 
                                 <li>
