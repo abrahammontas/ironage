@@ -28,11 +28,11 @@
 </head>
     <body>
 
-        {{--<section id="preloader">--}}
-            {{--<div class="loader" id="loader">--}}
-                {{--<div class="loader-img"></div>--}}
-            {{--</div>--}}
-        {{--</section>--}}
+        <section id="preloader">
+            <div class="loader" id="loader">
+                <div class="loader-img"></div>
+            </div>
+        </section>
 
         <div class="wrapper">
             @include('partials.navigation')
