@@ -31,7 +31,7 @@
                         <li><a href="{{ url('in-the-news') }}">In The News</a></li>
                         <li><a href="{{ url('getting-started') }}">Getting Started</a></li>
                         <li><a href="{{ url('trade') }}">Trade </a></li>
-                        {{--<li><a href="{{ url('blog') }}">Blog </a></li>--}}
+                        <li><a href="{{ url('blog') }}">Blog </a></li>
                     </ul>
                 </li>
                 <li>
