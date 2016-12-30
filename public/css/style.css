@@ -30,7 +30,7 @@ body {
     color: #323232;
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #323232;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 400 !important;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -3284,7 +3284,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -4350,6 +4350,7 @@ h3::after {
 }
 .nav-menu ul.nav-menu-inner li a {
     font-size:10px;
+    font-weight: 400;
 }
 .header-fixed .nav-menu ul.nav-menu-inner > li > a {
     padding-top:29px;
@@ -4397,4 +4398,7 @@ h3::after {
 .container-filter li a.active {
     font-size: 16px;
     font-weight: 700;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    font-weight: 400 !important;
 }
