@@ -17,7 +17,7 @@ class MainController extends Controller
 
     public function getPost($id) {
         $post = Post::findOrFail($id);
-        $posts = Post::where('id', '!=', $id)->get();
+        $posts = Post::where('id', '!=', $id)->limit(5)->get();
 
         return view('main.post', ['post' => $post, 'posts' => $posts]);
     }
