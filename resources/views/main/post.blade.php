@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="post-entry">
-                            {!! $post->content !!}</p>
+                            {!! $post->content !!}
                         </div>
 
                     </div>
