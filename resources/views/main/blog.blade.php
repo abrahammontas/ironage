@@ -36,7 +36,9 @@
                                 <div class="post-media">
                                     <a href="{{ route('post', $post_one->id) }}"><img class="item-container" src="{{Storage::url('post_img/' . $post_one->image)}}" /></a>
                                 </div>
-                                <div class="post-meta"><span>{{ date('m/d/Y', strtotime($post_one->date)) }}</span></div>
+                                <div class="post-meta">
+                                    <span>{{ date('m/d/Y', strtotime($post_one->date)) }}</span>
+                                </div>
                                 <div class="post-header">
                                     <h5><a href="{{ route('post', $post_one->id) }}">{{ $post_one->title }}</a></h5>
                                 </div>

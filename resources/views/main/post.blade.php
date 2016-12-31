@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="post-entry">
-                            {!! $post->content !!}
+                            {!! $post->content !!}</p>
                         </div>
 
                     </div>
@@ -55,15 +55,19 @@
                         <ul class="widget-post-media">
                             @foreach($posts as $recent_post)
 
-                                <li>
-                                    <a href="{{route('post', $recent_post->id)}}" class="widget-post-media">
-                                        <img src="{{ Storage::url('post_img/' . $recent_post->image) }}" alt="" style="margin-bottom:10px;">
-                                    </a>
+                                <li style="margin-bottom:20px;">
                                     <div class="widget-post-info">
-                                        <h6><a href="{{route('post', $recent_post->id)}}">{{ $recent_post->title }}</a></h6>
+                                        <h6 style="font-size:14px; margin-bottom:0px;">
+                                            <a href="{{route('post', $recent_post->id)}}">
+                                                {{ $recent_post->title }}
+                                            </a>
+                                        </h6>
                                     </div>
+                                    <a href="{{route('post', $recent_post->id)}}" class="widget-post-media" style="padding: 1px;">
+                                        <img src="{{ Storage::url('post_img/' . $recent_post->image) }}" alt="" style="margin-bottom:0px;">
+                                    </a>
                                     <div class="post-meta">
-                                        <span>{{ date('m/d/Y', strtotime($recent_post->date)) }}</span>
+                                        {{ date('m/d/Y', strtotime($recent_post->date)) }}
                                     </div>
                                 </li>
 
