@@ -40,7 +40,7 @@
                 </ul>
             </div>
             <div class="col-md-3 col-sm-12 col-xs-12">
-                <p class="lh-30">1701 Barrett Lakes Blvd<br />Kennesaw, GA 30144<br /></p>
+                <p class="lh-30">1701 Barrett Lakes Blvd, Suite 160<br />Kennesaw, GA 30144<br /></p>
                 <ul class="link-small lh-30">
                     <li><a href="mailto:sd@ironageoffice.com"><i class="fa fa-envelope-o left"></i>sd@ironageoffice.com</a></li>
                     <li><a><i class="fa fa-phone left"></i>(770) 502-5877</a></li>

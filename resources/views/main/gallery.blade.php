@@ -30,6 +30,22 @@
             <!-- End work Filter -->
             <div class="row container-masonry nf-col-3">
 
+                <div class="nf-item desk">
+                    <div class="item-box">
+                        <a class="cbox-gallary1" href="img/gallery/Morningstar_ATL.jpg">
+                            <img alt="morningstar-desk" src="img/gallery/Morningstar_ATL.jpg" class="item-container">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nf-item commercial">
+                    <div class="item-box">
+                        <a class="cbox-gallary1" href="img/gallery/AntiCubicle-v3.jpg">
+                            <img alt="anti-cubicle" src="img/gallery/AntiCubicle-v3.jpg" class="item-container">
+                        </a>
+                    </div>
+                </div>
+
                 <div class="nf-item commercial">
                     <div class="item-box">
                         <a class="cbox-gallary1" href="img/products/dogbone-1.jpg">
