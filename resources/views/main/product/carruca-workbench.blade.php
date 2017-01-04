@@ -32,6 +32,9 @@
             <div class="col-md-12">
                 <div class="owl-carousel image-slider o-flow-hidden">
                     <div class="item">
+                        <img src="../img/products/Carruca-6P-WorkStation.jpg" alt="" />
+                    </div>
+                    <div class="item">
                         <img src="../img/products/Carruca-WB.jpg" alt="" />
                     </div>
                     <div class="item">
