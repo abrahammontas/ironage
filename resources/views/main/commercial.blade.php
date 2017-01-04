@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-4" style="margin-bottom:20px;">
                     <div class="item-box" style="padding:0px;">
-                        <a href="product/carruca-workstation">
+                        <a href="product/carruca-workbench">
                             <img alt="Carruca Workbench" src="img/products/Carruca-6P-WorkStation.jpg" class="item-continer">
                             <div class="item-mask">
                                 <div class="item-caption">

@@ -84,12 +84,8 @@
             return view('main.product.bastille-workstation');
         });
 
-        Route::get('carruca-workbenct', function() {
+        Route::get('carruca-workbench', function() {
             return view('main.product.carruca-workbench');
-        });
-
-        Route::get('carruca-workstation', function() {
-            return view('main.product.carruca-workstation');
         });
 
         Route::get('harding-conference-table', function() {
