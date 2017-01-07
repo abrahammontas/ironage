@@ -75,7 +75,7 @@
     });
 
     Route::get('/blog', ['as' => 'blog', 'uses' => 'MainController@getPosts']);
-    Route::get('/blog/{id}', ['as' => 'post', 'uses' => 'MainController@getPost']);
+    Route::get('/blog/{slug}', ['as' => 'post', 'uses' => 'MainController@showPost']);
 
 
     Route::group(['prefix' => 'product'], function() {

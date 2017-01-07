@@ -58,12 +58,12 @@
                                 <li style="margin-bottom:20px;">
                                     <div class="widget-post-info">
                                         <h6 style="font-size:14px; margin-bottom:0px;">
-                                            <a href="{{route('post', $recent_post->id)}}">
+                                            <a href="{{route('post', $recent_post->slug)}}">
                                                 {{ $recent_post->title }}
                                             </a>
                                         </h6>
                                     </div>
-                                    <a href="{{route('post', $recent_post->id)}}" class="widget-post-media" style="padding: 1px;">
+                                    <a href="{{route('post', $recent_post->slug)}}" class="widget-post-media" style="padding: 1px;">
                                         <img src="{{ Storage::url('post_img/' . $recent_post->image) }}" alt="" style="margin-bottom:0px;">
                                     </a>
                                     <div class="post-meta">

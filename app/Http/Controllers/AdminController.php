@@ -38,6 +38,7 @@ class AdminController extends Controller
         ]);
 
         $input = $request->all();
+        $input['slug'] = str_slug($input['title'], '-');
         $file = $request->file('image');
         $name = $input['image'] = time() . '_' . $file->getClientOriginalName();
 
@@ -75,6 +76,7 @@ class AdminController extends Controller
         if($request->hasFile('image')) {
 
             $input = $request->all();
+            $input['slug'] = str_slug($input['title'], '-');
             $file = $request->file('image');
             $name = $input['image'] = time() . '_' . $file->getClientOriginalName();
 
@@ -86,6 +88,7 @@ class AdminController extends Controller
         } else {
 
             $input = $request->except('image');
+            $input['slug'] = str_slug($input['title'], '-');
             $post->update($input);
         }
 
