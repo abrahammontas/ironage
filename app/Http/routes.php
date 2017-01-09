@@ -40,9 +40,7 @@
         return view('main.contact');
     });
 
-    Route::get('/gallery', function() {
-        return view('main.gallery');
-    });
+    Route::get('/gallery', ['as' => 'gallery', 'uses' => 'HomeController@gallery']);
 
     Route::get('/getting-started', function() {
         return view('main.getting-started');
@@ -65,6 +63,11 @@
     });
 
     Route::group(['middleware' => 'auth'], function() {
+
+        Route::group(array('prefix' => 'admin'), function() {
+            Route::resource('categories', 'CategoryController');
+            Route::resource('gallery', 'GalleryController');
+        });
 
         Route::get('admin/dashboard', ['as' => 'dashboard', 'uses' => 'AdminController@index']);
         Route::post('admin/dashboard', ['as' => 'post.create', 'uses' => 'AdminController@createPost']);

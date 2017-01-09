@@ -37,17 +37,36 @@
             {{--<li>--}}
                 {{--<a href="#"><i class="fa fa-fw fa-bank"></i> Banks</a>--}}
             {{--</li>--}}
-            {{--<li class="dropdown">--}}
-                {{--<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-group"></i> Users <i class="fa fa-fw fa-caret-down"></i></a>--}}
-                {{--<ul class="dropdown-menu">--}}
-                    {{--<li>--}}
-                        {{--<a href="{{ route('admin.users.all', 'customers') }}">Customers</a>--}}
-                    {{--</li>--}}
-                    {{--<li>--}}
-                        {{--<a href="{{ route('admin.users.all', 'sellers') }}">Sellers</a>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
-            {{--</li>--}}
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-fw fa-bars"></i>
+                    Categories
+                    <i class="fa fa-fw fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ url('admin/categories/create') }}">Add</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('admin/categories') }}">List</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-fw fa-image"></i>
+                    Gallery
+                    <i class="fa fa-fw fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{{ url('admin/gallery/create') }}">Add</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('admin/gallery') }}">List</a>
+                    </li>
+                </ul>
+            </li>
             <li>
                 <a href="{{ url('logout') }}">Logout</a>
             </li>
